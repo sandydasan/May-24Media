@@ -1,0 +1,27 @@
+div{
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 350px;
+}
+
+@media(min-width:500px) and (max-width:800px){
+    div{
+        background-color: brown;
+    }
+    h1{
+        color: chartreuse;
+        font-size:large;
+        font-style: italic;
+    }
+    span{
+        display: none;
+    }
+}
+
+@media (orientation:landscape){
+    div{
+        border:5px rgb(220, 220, 25) solid;
+    }
+}
+
